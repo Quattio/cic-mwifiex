@@ -358,7 +358,7 @@ static card_type_entry card_type_map_tbl[] = {
 #ifdef PCIE9098
 	{CARD_TYPE_PCIE9098, 0, CARD_PCIE9098},
 #endif
-	{CARD_TYPE_PCIEAW693, 0, CARD_PCIEAW693},
+	/* {CARD_TYPE_PCIEAW693, 0, CARD_PCIEAW693}, */
 #ifdef PCIEIW624
 	{CARD_TYPE_PCIEIW624, 0, CARD_PCIEIW624},
 #endif
