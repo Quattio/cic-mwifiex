@@ -3710,10 +3710,10 @@ mlan_status wlan_ops_sta_prepare_cmd(t_void *priv, t_u16 cmd_no,
 		ret = wlan_cmd_802_11_scan(pmpriv, cmd_ptr, pdata_buf);
 		break;
 	case HostCmd_CMD_802_11_BG_SCAN_CONFIG:
-		ret = wlan_cmd_bgscan_config(pmpriv, cmd_ptr, pdata_buf);
+		ret = MLAN_STATUS_SUCCESS;
 		break;
 	case HostCmd_CMD_802_11_BG_SCAN_QUERY:
-		ret = wlan_cmd_802_11_bg_scan_query(pmpriv, cmd_ptr, pdata_buf);
+		ret = MLAN_STATUS_SUCCESS;
 		break;
 	case HostCmd_CMD_802_11_ASSOCIATE:
 		ret = wlan_cmd_802_11_associate(pmpriv, cmd_ptr, pdata_buf);
